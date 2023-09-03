@@ -6,7 +6,7 @@ RUN git clone https://github.com/fereshte231/DenoisingApp.git .
 
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
-RUN python -m pip install -r requirments.txt
+RUN python -m pip install -r requirements2.txt
 
 EXPOSE 8501
 
